@@ -11,7 +11,7 @@ const SingleProduct = ({ prod }) => {
   return (
     <div className="products">
       <Card>
-        <Card.Img variant="top" src={"https://m.media-amazon.com/images/I/61Dw5Z8LzJL._AC_UF1000,1000_QL80_.jpg"} alt={prod.name} />
+        <Card.Img variant="top" src={"https://picsum.photos/seed/picsum/200/300"} alt={prod.name} />
         <Card.Body>
           <Card.Title>{prod.name}</Card.Title>
           <Card.Subtitle style={{ paddingBottom: 10 }}>
